@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+/* clearfix */
+.row::after, .frame::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+img{
+    height: 6em;
+    vertical-align: middle;
+}
+/* TITLE */
+
+h1{
+    text-align: center;
+    margin: 1em 0 1.5em 0;
+    color: #E53170;
+    font-size: 2rem;
+}
+
+/* TEXT */
+
+p{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+/* FRAMES */
+.row{
+    margin-bottom: 3em;
+}
+
+.frame{
+    width: calc(100%/3 - 4em);
+    float: left;
+    margin-right: 2em;
+}
+
+.frame1{
+    background-color: #0F0E17;
+}
+
+.frame2{
+    background-color: rgb(34, 255, 0);
+}
+
+.frame3{
+    background-color: rgb(199, 45, 199);
+}
