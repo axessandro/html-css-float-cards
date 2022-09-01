@@ -18,6 +18,10 @@
     display: table;
 }
 
+.row :last-child{
+    margin: 0;
+}
+
 html{
     font-size: 100%;
 }
@@ -27,8 +31,10 @@ body{
 }
 
 img{
-    height: 6em;
+    height: 8em;
     vertical-align: middle;
+    float: left;
+    margin-right: 1em;
 }
 /* TITLE */
 
@@ -52,19 +58,25 @@ p{
 }
 
 .frame{
-    width: calc(100%/3 - 4em);
+    width: calc((100% / 3) - (4em / 3));
     float: left;
     margin-right: 2em;
-}
-
-.frame1{
+    color: white;
     background-color: #0F0E17;
+    box-shadow: 5px 5px 12px 1px  #888888;
 }
 
-.frame2{
-    background-color: rgb(34, 255, 0);
+.name{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.7em 0;
 }
 
-.frame3{
-    background-color: rgb(199, 45, 199);
+.job{
+    margin-bottom: 0.7em;
+}
+
+a{
+    float: left;
+    color: #17CCF2;
 }
